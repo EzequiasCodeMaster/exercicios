@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body{
+
+    background-color: aqua;
+}
+
+h1#principal{
+    color: blue;
+    text-align: center;
+    font-size: 4em;
+}
+
+
+h1{
+   font-size: 3em;
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2{
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+   
+    background-color: antiquewhite;/*colore o fundo*/
+    text-align: center; /*alinha o texto aonde quer*/
+    height:200px;*/* define a altura*/
+    width:200px;/*define a largura*/
+    border: 1px solid black;
+    
+    
+}
+#d1:hover{ /* para mudar de cor quando coloca o mouse emcima*/
+    background-color: black;
+}
+
+a:visited{/*para mudar de cor quando ja tiver apertado no link*/
+    color: rgb(255, 0, 85);
+
+}
+a:hover{
+    color:chartreuse;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: arial;
+    text-transform: capitalize;
+    text-decoration-color: blue;
+}

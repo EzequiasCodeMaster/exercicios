@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho de Imagens</title>
+</head>
+<body>
+   <h1>Imagens Dinâmicas</h1>
+   <p>Abrindo imagens em vários dispositivos diferentes.</p>
+
+   <picture>
+       <source media="(min-width: 350px)" srcset="imagens/foto-pequena.png" type="image/png">
+       <source media="(min-width: 930px)" srcset="imagens/foto-media.png" type="image/png">
+       <img src="foto-grande.png" alt="Imagem Flexível">
+   </picture>
+</body>
+</html>
