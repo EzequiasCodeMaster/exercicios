@@ -6,6 +6,48 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="cadastro.php">
+        <h1>Exemplo de Formulario</h1>
+
+        <p>
+            <label for="estado">estado</label>
+            <select name="estado" id="estado">
+                <optgroup label="1 e 2" > 
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </optgroup>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            
+        </p>
+
+        <p>
+            <label for="profissão">Profissão</label>
+            <input type="text" name="profissão" id="profissão"  list="vei">
+
+            <datalist id="vei">
+                <option value="carro">carro</option>
+                <option value="moto">moto</option>
+                <option value="bike">bike</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">Mensagem</label>
+            <textarea name="msg " id="msg" cols="50" rows="20"></textarea>
+        </p>
+
+
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+
+
+    </form>
 </body>
 </html>
